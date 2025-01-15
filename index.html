@@ -10,6 +10,8 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 
+<div id="circle"></div>
+
 <body>
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -35,17 +37,17 @@
     </header>
     
 
-    <section id="background">
-        <h2>Background</h2>
-        <p>I was born in Texas but I have lived in Fayetteville North Carolina for most of my life. When I was around
+    <section id="introduction" class="col-md-8 mx-auto">
+        <h2>Hello</h2>
+        <p id="introduction-text">I was born in Texas but I have lived in Fayetteville North Carolina for most of my life. When I was around
             the age of 12 I started creating videos with my friends and fell in love with the art so when I went to
             college I chose to major in Mass Communications with a concentration in Broadcasting to have my work on TV.
         </p>
     </section>
-    <section id="workExperience">
+    <section id="workExperience" class="col-md-8 mx-auto">
         <h2>Work Experience</h2>
     </section>
-    <section id="form">
+    <section id="form" class="col-md-8 mx-auto">
         <h2>If you would like to tell me more about yourself please do below!</h2>
         <form action="URLtosenddatato" method="post">
             <textarea rows="15" cols="50" placeholder="Tell me about yourself here"></textarea>
@@ -53,9 +55,11 @@
         </form>
     </section>
 
+    <script src="index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+    
 </body>
 
 </html>
