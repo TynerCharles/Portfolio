@@ -1,3 +1,10 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color:grey;
+    color: white;
+}
+
 #circle {
     position: absolute;
     width: 50px;
@@ -6,11 +13,11 @@
     border-radius: 50%;
     opacity: 15%;
     border-color: rgb(80, 80, 80) ;
+    
 }
 
 #introduction {
     padding: 50px;
-    background-color:aquamarine;
 }
 
 #introduction-text {
